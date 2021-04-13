@@ -34,8 +34,11 @@ public class Main {
         System.out.println("Division Ergebnisse: " + divided(x, y));
         System.out.println("Modulo Ergebnisse: " + rest(x, y));
         //------------------------------------------------------------------
+        input.close();
     }
 
+    // Methoden
+    //---------------------------------------------------------------------
     public static float add(int x, int y) {
         // int addition = x + y;
         return (float) x + y;
@@ -48,7 +51,6 @@ public class Main {
     public static float multiply(int x, int y) {
         return (float) x * y;
     }
-
 
     public static float divided(int x, int y) {
         return (float) x / y;
